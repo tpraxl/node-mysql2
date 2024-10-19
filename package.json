@@ -43,11 +43,14 @@
     "typings/mysql",
     "index.js",
     "index.d.ts",
+    "callback.js",
     "promise.js",
     "promise.d.ts"
   ],
   "exports": {
     ".": "./index.js",
+    "./callback": "./callback.js",
+    "./callback.js": "./callback.js",
     "./package.json": "./package.json",
     "./promise": "./promise.js",
     "./promise.js": "./promise.js"
